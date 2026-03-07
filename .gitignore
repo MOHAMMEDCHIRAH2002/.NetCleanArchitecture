@@ -1,0 +1,88 @@
+## .NET / C# gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Publish output
+**/publish/
+**/PublishProfiles/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment / secrets
+*.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Entity Framework migrations (optional - remove if you want to track migrations)
+# **/Migrations/
+
+# Docker
+docker-compose.override.yml
+
+# Certificates
+*.pfx
+*.pem
+*.cer
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
