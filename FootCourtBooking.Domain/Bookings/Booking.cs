@@ -64,6 +64,8 @@ namespace FootCourtBooking.Domain.Bookings
 
             Status = BoockingStatus.Canceled;
         }
+
+        public bool IsCanceled() => Status == BoockingStatus.Canceled;
     }
 
 }
