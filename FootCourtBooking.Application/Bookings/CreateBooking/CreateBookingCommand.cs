@@ -5,8 +5,11 @@ using System.Threading.Tasks;
 
 namespace FootCourtBooking.Application.Bookings.CreateBooking
 {
-    public class CreateBookingCommand
-    {
+    public sealed record CreateBookingCommand
+    (
+        Guid CourtId,
+        string CustomerName,
+        DateTime StartUtc
         
-    }
+    );
 }
